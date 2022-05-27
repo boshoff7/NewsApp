@@ -13,6 +13,12 @@
 		C27B2FA027C8C4C500E42F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27B2F9E27C8C4C500E42F54 /* Main.storyboard */; };
 		C27B2FA227C8C4CA00E42F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27B2FA127C8C4CA00E42F54 /* Assets.xcassets */; };
 		C27B2FA527C8C4CA00E42F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27B2FA327C8C4CA00E42F54 /* LaunchScreen.storyboard */; };
+		C27B2FAD27C8DC0E00E42F54 /* Atricle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27B2FAC27C8DC0E00E42F54 /* Atricle.swift */; };
+		C27B2FAF27C8DC9200E42F54 /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27B2FAE27C8DC9200E42F54 /* ArticleService.swift */; };
+		C27B2FB127C8DD2300E42F54 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27B2FB027C8DD2300E42F54 /* ArticleModel.swift */; };
+		C27B2FB327C9200600E42F54 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27B2FB227C9200600E42F54 /* DetailViewController.swift */; };
+		C27B2FB527C92D4300E42F54 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27B2FB427C92D4300E42F54 /* ArticleCell.swift */; };
+		C293455827CCBC3400CB0729 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C293455727CCBC3400CB0729 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		C27B2FA127C8C4CA00E42F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C27B2FA427C8C4CA00E42F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C27B2FA627C8C4CA00E42F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27B2FAC27C8DC0E00E42F54 /* Atricle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atricle.swift; sourceTree = "<group>"; };
+		C27B2FAE27C8DC9200E42F54 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		C27B2FB027C8DD2300E42F54 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		C27B2FB227C9200600E42F54 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C27B2FB427C92D4300E42F54 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		C293455727CCBC3400CB0729 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				C27B2F9827C8C4C500E42F54 /* AppDelegate.swift */,
 				C27B2F9A27C8C4C500E42F54 /* SceneDelegate.swift */,
 				C27B2F9C27C8C4C500E42F54 /* ViewController.swift */,
+				C27B2FB227C9200600E42F54 /* DetailViewController.swift */,
+				C27B2FB427C92D4300E42F54 /* ArticleCell.swift */,
+				C27B2FB027C8DD2300E42F54 /* ArticleModel.swift */,
+				C27B2FAC27C8DC0E00E42F54 /* Atricle.swift */,
+				C27B2FAE27C8DC9200E42F54 /* ArticleService.swift */,
+				C293455727CCBC3400CB0729 /* CacheManager.swift */,
 				C27B2F9E27C8C4C500E42F54 /* Main.storyboard */,
 				C27B2FA127C8C4CA00E42F54 /* Assets.xcassets */,
 				C27B2FA327C8C4CA00E42F54 /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27B2FB527C92D4300E42F54 /* ArticleCell.swift in Sources */,
+				C293455827CCBC3400CB0729 /* CacheManager.swift in Sources */,
+				C27B2FAF27C8DC9200E42F54 /* ArticleService.swift in Sources */,
+				C27B2FAD27C8DC0E00E42F54 /* Atricle.swift in Sources */,
 				C27B2F9D27C8C4C500E42F54 /* ViewController.swift in Sources */,
 				C27B2F9927C8C4C500E42F54 /* AppDelegate.swift in Sources */,
+				C27B2FB127C8DD2300E42F54 /* ArticleModel.swift in Sources */,
 				C27B2F9B27C8C4C500E42F54 /* SceneDelegate.swift in Sources */,
+				C27B2FB327C9200600E42F54 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
